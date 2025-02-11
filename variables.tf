@@ -281,6 +281,12 @@ variable "variable_set_names" {
   default     = []
 }
 
+variable "variable_set_ids" {
+  type        = list(string)
+  description = "List of IDs of existing Variable Sets to add to this Workspace."
+  default     = []
+}
+
 #------------------------------------------------------------------------------
 # Workspace Policy Sets
 #------------------------------------------------------------------------------
